@@ -1,4 +1,13 @@
 NLP-ShARe
 =========
 
-Pre-processing and output generator for ShARe/CLEF 2014
+ShARe challenge task 2
+
+Pre-processing (Python)
+1) nltk
+
+Medical term detection (Java)
+1) Metamap13
+2) Metamap API
+
+Report generation (Python)
