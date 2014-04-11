@@ -37,55 +37,77 @@ f.close()
 
 #start cleaning up data
 
-processed = []
+processed = []  #structured data
+
+#record information from the first line
 first_line = ""
+
 #count position
-start = 1
 total = 1
-
-
+#start position for each  line as reference
+start = 1
 
 for line in lines:
-	#remove all '\n' at the end of a line
+
+	#count characters
 	total = total + len(line)
+
+	#remove all '\n' at the end of a line, the removal won't effect the start position
 	line = line.rstrip()
-	"""
-	if len(temp_line) < len(line):
-		end = start + len(temp_line)
-	else:
-		end = total
-	"""
+
+	#remove all space or '\n' at the beginning of a line
 	temp_line = line.lstrip()
 	
+	#if removal, then change the start position of this line
 	if len(temp_line) < len(line):
 		start = start + len(line) - len(temp_line)
 	else:
 		pass
-
 	line = temp_line
-	
+
+	#if first line, only record the whole line but not to the structured data (otherwise it will be removed during the following steps)
 	if len(first_line) == 0:
 		first_line = line
-		start = total + 1
+		start = total
 		continue
-	#remove all empty lines
+
+	"""
+	clean-up 
+	(1) remove all empty lines
+	(2) parse paragraphs into sentences
+	(3) only record SENTENCES (with a period at the end of the sentence, and has letters)
+	"""
+
 	if len(line) > 0:
 		#detect sentences
 		for temp_line in sentenceBound(line):
-			if re.search('[a-zA-Z]', temp_line):
-				if temp_line[-1] == '.':
-					processed.append({'sentence': temp_line[:-1], 'span': [start, start + len(temp_line) + 1]})
-					start = start + len(temp_line) + 1
-	start = total + 1
+			if re.search('[a-zA-Z]', temp_line):	#has words
+				if temp_line[-1] == '.':	#end with a period
+					#when record a sentence, remove the last period, 'span' is the start position of this sentence in this file
+					processed.append({'sentence': temp_line[:-1], 'span': start})
+					#start position move to the next sentence	
+					start = start + len(temp_line)
+	#start position move to the next line
+	start = total
 
 
+"""
+pre-processing data
+(1) identify date
+(2) tokenize sentences
+	- remove "CAPITAL_WORDS:" which is not a symptom though may contain SYMPTOM/DIAGNOSIS words
+	- remove tokenized items start/end with number/symbols: may not relevant to the output
+	- remove 1 letter items: meaning less
+(3) detect negation (to be implemented)
+"""
 for item in processed:
 	item['date'] = dateParse(item['sentence'])
 	item['content'] = cleanTokenizer(item['sentence'])
 
 for item in processed:
-	print item['date']
+	print item['span'], item['sentence']
 
+print total
 
 
 #ParseDate
