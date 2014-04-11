@@ -10,7 +10,7 @@ def sentenceBound(sentences):
 
 #find date in the form of '**DATE**'
 def dateParse(sentences):
-	return re.findall(r'\*\*([0-9.-])\*\*', sentences)
+	return re.findall(r'\*\*([0-9.-]+)\*\*', sentences)
 
 #tokenize a sentence
 def cleanTokenizer(sentences):
@@ -39,13 +39,34 @@ f.close()
 
 processed = []
 first_line = ""
+#count position
+start = 1
+total = 1
+
+
 
 for line in lines:
 	#remove all '\n' at the end of a line
+	total = total + len(line)
 	line = line.rstrip()
-	line = line.lstrip()
+	"""
+	if len(temp_line) < len(line):
+		end = start + len(temp_line)
+	else:
+		end = total
+	"""
+	temp_line = line.lstrip()
+	
+	if len(temp_line) < len(line):
+		start = start + len(line) - len(temp_line)
+	else:
+		pass
+
+	line = temp_line
+	
 	if len(first_line) == 0:
 		first_line = line
+		start = total + 1
 		continue
 	#remove all empty lines
 	if len(line) > 0:
@@ -53,14 +74,17 @@ for line in lines:
 		for temp_line in sentenceBound(line):
 			if re.search('[a-zA-Z]', temp_line):
 				if temp_line[-1] == '.':
-					processed.append({'sentence': temp_line[:-1]})
+					processed.append({'sentence': temp_line[:-1], 'span': [start, start + len(temp_line) + 1]})
+					start = start + len(temp_line) + 1
+	start = total + 1
+
 
 for item in processed:
 	item['date'] = dateParse(item['sentence'])
 	item['content'] = cleanTokenizer(item['sentence'])
 
 for item in processed:
-	print item['content']
+	print item['date']
 
 
 
