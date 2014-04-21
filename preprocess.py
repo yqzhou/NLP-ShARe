@@ -14,21 +14,23 @@ def dateParse(sentences):
 
 #tokenize a sentence
 def cleanTokenizer(sentences):
-	#remove catogory name
+	result = []
+	#remove section headers
 	index = re.search(r'^[A-Z\s]+\:', sentences)
 	if index is not None:
 		sentences = index.string[index.end(0):]
 	#tokenize by space
 	temp_result = WhitespaceTokenizer().tokenize(sentences)
-	#remove anywords start or end with symbol or number or word with only one letter
-	result = []
+	#remove anywords start or end with symbol
 	for item in temp_result:
-		if item[0].isalpha() and item[-1].isalpha() and len(item) > 1:
+		if item[-1] == ',':
+			item = item[:-1]
+		if item[0].isalpha() and item[-1].isalpha():
 			result.append(item)
 	return result
 
 #read test file
-f = open("sample.txt","r")
+f = open("sample_1.txt","r")
 
 lines = f.readlines()
 
@@ -93,21 +95,29 @@ for line in lines:
 
 """
 pre-processing data
-(1) identify date
-(2) tokenize sentences
-	- remove "CAPITAL_WORDS:" which is not a symptom though may contain SYMPTOM/DIAGNOSIS words
+(1) identify date - regular expression "**Date**"
+(2) tokenize sentences - ntlk
+	- remove section headers: which is not a symptom though may contain SYMPTOM/DIAGNOSIS words
 	- remove tokenized items start/end with number/symbols: may not relevant to the output
-	- remove 1 letter items: meaning less
-(3) detect negation (to be implemented)
+(3) detect negation, temporal, experiencer (to be implemented) - NegEx ??
 """
 for item in processed:
 	item['date'] = dateParse(item['sentence'])
 	item['content'] = cleanTokenizer(item['sentence'])
 
-for item in processed:
-	print item['span'], item['sentence']
+r = open("output-1.txt", "w")
 
-print total
+for item in processed:
+	output = ' '.join(item['content']) + '\n' + '\n'
+	r.write(output)
+r.close()
+
+
+for item in processed:
+	print item
+
+
+
 
 
 #ParseDate

@@ -1,0 +1,1166 @@
+Processing 00000000.tx.1: The patient is a female with complaints of headache and dizziness
+
+Phrase: "The patient"
+Meta Mapping (1000):
+  1000   C0030705:*^patient (Patients) [Patient or Disabled Group]
+
+Phrase: "is"
+
+Phrase: "a female with complaints of headache"
+Meta Mapping (666):
+   753   C0015780:Female [Finding]
+   586   C0277786:complaints (Chief complaint (finding)) [Finding]
+   586   C0018681:Headache [Sign or Symptom]
+Meta Mapping (666):
+   753   C1705498:Female (Female Phenotype) [Qualitative Concept]
+   586   C0277786:complaints (Chief complaint (finding)) [Finding]
+   586   C0018681:Headache [Sign or Symptom]
+Meta Mapping (666):
+   753   C1705497:Female (Female, Self-Report) [Qualitative Concept]
+   586   C0277786:complaints (Chief complaint (finding)) [Finding]
+   586   C0018681:Headache [Sign or Symptom]
+Meta Mapping (666):
+   753   C0086287:female (Females) [Population Group]
+   586   C0277786:complaints (Chief complaint (finding)) [Finding]
+   586   C0018681:Headache [Sign or Symptom]
+Meta Mapping (666):
+   753   C0043210:female (Woman) [Population Group]
+   586   C0277786:complaints (Chief complaint (finding)) [Finding]
+   586   C0018681:Headache [Sign or Symptom]
+
+Phrase: "and"
+
+Phrase: "dizziness"
+Meta Mapping (1000):
+  1000   C0012833:Dizziness [Sign or Symptom]
+Meta Mapping (1000):
+  1000   C1963093:Dizziness (Dizziness Adverse Event) [Finding]
+Meta Mapping (1000):
+  1000   C0042571:dizziness (Vertigo) [Sign or Symptom]
+Processing 00000000.tx.1: In the patient had headache with neck stiffness and was unable to walk for minutes
+
+Phrase: "In the patient"
+Meta Mapping (1000):
+  1000   C0030705:*^patient (Patients) [Patient or Disabled Group]
+
+Phrase: "had"
+
+Phrase: "headache with neck stiffness"
+Meta Mapping (783):
+   770   C0018681:Headache [Sign or Symptom]
+   666   C0151315:Neck stiffness [Sign or Symptom]
+
+Phrase: "and"
+
+Phrase: "was"
+
+Phrase: "unable to"
+Meta Mapping (861):
+   861   C1299582:Unable [Finding]
+
+Phrase: "walk for minutes"
+Meta Mapping (746):
+   790   C0080331:Walk (Walking (activity)) [Daily or Recreational Activity]
+   790   C0702093:/minute [Temporal Concept]
+Meta Mapping (746):
+   790   C0080331:Walk (Walking (activity)) [Daily or Recreational Activity]
+   790   C1282918:Minute (Minute (diminutive)) [Quantitative Concept]
+Meta Mapping (746):
+   790   C0080331:Walk (Walking (activity)) [Daily or Recreational Activity]
+   790   C2347166:Minute (Minute Unit of Plane Angle) [Quantitative Concept]
+Meta Mapping (746):
+   790   C0080331:Walk (Walking (activity)) [Daily or Recreational Activity]
+   790   C0439232:minute (Minute of time) [Temporal Concept]
+Meta Mapping (746):
+   790   C0080331:Walk (Walking (activity)) [Daily or Recreational Activity]
+   790   C0700321:minute (Small) [Quantitative Concept]
+Processing 00000000.tx.1: The patient also had a similar episode a year and a half ago where she had inability to walk without pain
+
+Phrase: "The patient also"
+Meta Mapping (861):
+   861   C0030705:*^patient (Patients) [Patient or Disabled Group]
+
+Phrase: "had"
+
+Phrase: "a similar episode"
+Meta Mapping (888):
+   694   C2348205:Similar (Similarity) [Qualitative Concept]
+   861   C0332189:Episode (Episode of) [Temporal Concept]
+
+Phrase: "a year"
+Meta Mapping (1000):
+  1000   C0439508:/year (per year) [Temporal Concept]
+Meta Mapping (1000):
+  1000   C0439234:year [Temporal Concept]
+
+Phrase: "and"
+
+Phrase: "a half ago where"
+Meta Mapping (827):
+   827   C2825407:Half [Quantitative Concept]
+
+Phrase: "she"
+
+Phrase: "had"
+
+Phrase: "inability to"
+
+Phrase: "walk without pain"
+Meta Mapping (746):
+   790   C0080331:Walk (Walking (activity)) [Daily or Recreational Activity]
+   790   C0030193:Pain [Sign or Symptom]
+Meta Mapping (746):
+   790   C0080331:Walk (Walking (activity)) [Daily or Recreational Activity]
+   790   C1962977:Pain NOS (Pain NOS Adverse Event) [Finding]
+Processing 00000000.tx.1: She had a headache at that time which was relieved with Tylenol
+
+Phrase: "She"
+
+Phrase: "had"
+
+Phrase: "a headache at"
+Meta Mapping (790):
+   790   C0018681:Headache [Sign or Symptom]
+
+Phrase: "that time"
+Meta Mapping (1000):
+  1000   C0040223:Time [Temporal Concept]
+Meta Mapping (1000):
+  1000   C3541383:Time (Time (foundation metadata concept)) [Temporal Concept]
+
+Phrase: "which"
+
+Phrase: "was"
+
+Phrase: "relieved with Tylenol"
+Meta Mapping (746):
+   790   C1301771:Relieved (Relieved (qualifier value)) [Qualitative Concept]
+   790   C0699142:Tylenol [Organic Chemical,Pharmacologic Substance]
+Processing 00000000.tx.1: Hypothyroidism
+
+Phrase: "Hypothyroidism"
+Meta Mapping (1000):
+  1000   C0020676:Hypothyroidism [Disease or Syndrome]
+Processing 00000000.tx.1: Penicillin and Bactrim which causes a rash
+
+Phrase: "Penicillin"
+Meta Mapping (1000):
+  1000   C0220892:Penicillin [Antibiotic,Organic Chemical]
+Meta Mapping (1000):
+  1000   C0030842:Penicillin (Penicillins) [Antibiotic,Organic Chemical]
+
+Phrase: "and"
+
+Phrase: "Bactrim"
+Meta Mapping (1000):
+  1000   C0591139:Bactrim [Organic Chemical,Pharmacologic Substance]
+
+Phrase: "which"
+
+Phrase: "causes"
+Meta Mapping (1000):
+  1000   C0015127:cause (Etiology aspects) [Functional Concept]
+Meta Mapping (1000):
+  1000   C1524003:Cause (Science of Etiology) [Conceptual Entity]
+
+Phrase: "a rash"
+Meta Mapping (1000):
+  1000   C0015230:Rash (Exanthema) [Disease or Syndrome]
+Processing 00000000.tx.1: Levoxyl mg
+
+Phrase: "Levoxyl mg"
+Meta Mapping (888):
+   694   C0721346:Levoxyl [Amino Acid, Peptide, or Protein,Pharmacologic Substance]
+   861   C2346927:Mg++ (Magnesium Cation) [Element, Ion, or Isotope,Pharmacologic Substance]
+Meta Mapping (888):
+   694   C0721346:Levoxyl [Amino Acid, Peptide, or Protein,Pharmacologic Substance]
+   861   C1960952:mg % (Milligram percent) [Quantitative Concept]
+Meta Mapping (888):
+   694   C0721346:Levoxyl [Amino Acid, Peptide, or Protein,Pharmacologic Substance]
+   861   C0439269:mg% (mg/dL) [Quantitative Concept]
+Processing 00000000.tx.1: On physical examination her blood pressure was pulse
+
+Phrase: "On physical examination"
+Meta Mapping (1000):
+  1000   C0031809:Physical Examination [Health Care Activity]
+
+Phrase: "her blood pressure"
+Meta Mapping (1000):
+  1000   C0005823:Blood Pressure [Organism Function]
+Meta Mapping (1000):
+  1000   C1271104:Blood Pressure (Blood pressure finding) [Finding]
+Meta Mapping (1000):
+  1000   C1272641:Blood pressure (Systemic arterial pressure) [Finding]
+
+Phrase: "was"
+
+Phrase: "pulse"
+Meta Mapping (1000):
+  1000   C0391850:Pulse (Physiologic pulse) [Physiologic Function]
+Meta Mapping (1000):
+  1000   C0232117:PULSE (Pulse Rate) [Clinical Attribute]
+Meta Mapping (1000):
+  1000   C1947910:Pulse (Pulse phenomenon) [Phenomenon or Process]
+Processing 00000000.tx.1: In general she was a woman in no acute distress
+
+Phrase: "In general"
+Meta Mapping (1000):
+  1000   C1553889:General (Act Code - General) [Idea or Concept]
+Meta Mapping (1000):
+  1000   C0205246:General (Generalized) [Spatial Concept]
+
+Phrase: "she"
+
+Phrase: "was"
+
+Phrase: "a woman in no acute distress"
+Meta Mapping (695):
+   753   C0043210:Woman [Population Group]
+   395   C0748355:Acute respiratory distress [Disease or Syndrome]
+Processing 00000000.tx.1: Nonicteric
+
+Phrase: "Nonicteric"
+Processing 00000000.tx.1: Pupils are equal round and reactive to light
+
+Phrase: "Pupils"
+Meta Mapping (1000):
+  1000   C0034121:Pupils (Pupil) [Body Part, Organ, or Organ Component]
+
+Phrase: "are"
+
+Phrase: "equal round"
+Meta Mapping (888):
+   694   C0205163:Equal [Qualitative Concept]
+   861   C0332490:Round (Round shape) [Spatial Concept]
+Meta Mapping (888):
+   694   C1549782:Equal (Relational Operator - Equal) [Idea or Concept]
+   861   C0332490:Round (Round shape) [Spatial Concept]
+
+Phrase: "and"
+
+Phrase: "reactive to light"
+Meta Mapping (746):
+   790   C0205332:Reactive [Qualitative Concept]
+   623   C0023693:Light [Natural Phenomenon or Process]
+Meta Mapping (746):
+   790   C0205332:Reactive [Qualitative Concept]
+   623   C1881376:Light (Light (qualifier)) [Qualitative Concept]
+Meta Mapping (746):
+   790   C0205332:Reactive [Qualitative Concept]
+   623   C2718082:LIGHT (Light Cycle) [Temporal Concept]
+Meta Mapping (746):
+   790   C0205332:Reactive [Qualitative Concept]
+   623   C1306462:Light (Light color) [Functional Concept]
+Processing 00000000.tx.1: Extraocular movements are full
+
+Phrase: "Extraocular movements"
+Meta Mapping (1000):
+   827   C0702182:Extraocular eye movement (Eye movement observation) [Finding]
+
+Phrase: "are"
+
+Phrase: "full"
+Meta Mapping (1000):
+  1000   C0443225:Full [Qualitative Concept]
+Processing 00000000.tx.1: Pharynx is benign
+
+Phrase: "Pharynx"
+Meta Mapping (1000):
+  1000   C1278903:Pharynx (Entire pharynx) [Body Part, Organ, or Organ Component]
+Meta Mapping (1000):
+  1000   C0031354:Pharynx (Pharyngeal structure) [Body Part, Organ, or Organ Component]
+
+Phrase: "is"
+
+Phrase: "benign"
+Meta Mapping (1000):
+  1000   C0205183:Benign [Qualitative Concept]
+Processing 00000000.tx.1: Tongue midline
+
+Phrase: "Tongue midline"
+Meta Mapping (888):
+   694   C1278913:Tongue (Entire tongue) [Body Part, Organ, or Organ Component]
+   861   C2939193:Midline (Median (qualifier value)) [Spatial Concept]
+Meta Mapping (888):
+   694   C1278913:Tongue (Entire tongue) [Body Part, Organ, or Organ Component]
+   861   C0549183:Midline (Midline (qualifier value)) [Spatial Concept]
+Meta Mapping (888):
+   694   C1278913:Tongue (Entire tongue) [Body Part, Organ, or Organ Component]
+   861   C1660780:midline (midline cell component) [Cell Component]
+Meta Mapping (888):
+   694   C0040408:Tongue [Body Part, Organ, or Organ Component]
+   861   C2939193:Midline (Median (qualifier value)) [Spatial Concept]
+Meta Mapping (888):
+   694   C0040408:Tongue [Body Part, Organ, or Organ Component]
+   861   C0549183:Midline (Midline (qualifier value)) [Spatial Concept]
+Meta Mapping (888):
+   694   C0040408:Tongue [Body Part, Organ, or Organ Component]
+   861   C1660780:midline (midline cell component) [Cell Component]
+Processing 00000000.tx.1: Neck is supple
+
+Phrase: "Neck"
+Meta Mapping (1000):
+  1000   C1281592:Neck (Entire neck) [Body Part, Organ, or Organ Component]
+Meta Mapping (1000):
+  1000   C0027530:Neck [Body Location or Region]
+
+Phrase: "is"
+
+Phrase: "supple"
+Meta Mapping (1000):
+  1000   C0332254:Supple [Functional Concept]
+Processing 00000000.tx.1: Chest was clear to auscultation
+
+Phrase: "Chest"
+Meta Mapping (1000):
+  1000   C1527391:Chest (Anterior thoracic region) [Body Location or Region]
+Meta Mapping (1000):
+  1000   C0817096:Chest [Body Location or Region]
+
+Phrase: "was"
+
+Phrase: "clear to auscultation"
+Meta Mapping (746):
+   790   C2963144:Clear [Qualitative Concept]
+   623   C0004339:Auscultation [Diagnostic Procedure]
+Processing 00000000.tx.1: regular rate and rhythm
+
+Phrase: "regular rate"
+Meta Mapping (888):
+   694   C0205272:Regular [Qualitative Concept]
+   861   C1521828:Rate [Quantitative Concept]
+Meta Mapping (888):
+   694   C0205272:Regular [Qualitative Concept]
+   861   C0871208:Rate (Rating (action)) [Activity]
+
+Phrase: "and"
+
+Phrase: "rhythm"
+Meta Mapping (1000):
+  1000   C0871269:Rhythm [Finding]
+Meta Mapping (1000):
+  1000   C1523018:rhythm (rhythmic process (biological)) [Physiologic Function]
+Processing 00000000.tx.1: Abdomen is soft nontender nondistended negative bruits
+
+Phrase: "Abdomen"
+Meta Mapping (1000):
+  1000   C0000726:Abdomen [Body Location or Region]
+Meta Mapping (1000):
+  1000   C0230168:Abdomen (Abdominal Cavity) [Body Location or Region]
+Meta Mapping (1000):
+  1000   C1281594:Abdomen (Entire abdomen) [Body Part, Organ, or Organ Component]
+
+Phrase: "is"
+
+Phrase: "soft nontender nondistended negative bruits"
+Meta Mapping (764):
+   637   C3542022:SOFT (SHORT STATURE, ONYCHODYSPLASIA, FACIAL DYSMORPHISM, AND HYPOTRICHOSIS SYNDROME) [Disease or Syndrome]
+   637   C0520960:Non-tender [Qualitative Concept]
+   637   C0205160:Negative [Qualitative Concept]
+   804   C0006318:bruits (Bruit) [Finding]
+Meta Mapping (764):
+   637   C3542022:SOFT (SHORT STATURE, ONYCHODYSPLASIA, FACIAL DYSMORPHISM, AND HYPOTRICHOSIS SYNDROME) [Disease or Syndrome]
+   637   C0520960:Non-tender [Qualitative Concept]
+   637   C2825491:Negative (Negative Charge) [Qualitative Concept]
+   804   C0006318:bruits (Bruit) [Finding]
+Meta Mapping (764):
+   637   C3542022:SOFT (SHORT STATURE, ONYCHODYSPLASIA, FACIAL DYSMORPHISM, AND HYPOTRICHOSIS SYNDROME) [Disease or Syndrome]
+   637   C0520960:Non-tender [Qualitative Concept]
+   637   C1513916:Negative (Negative Finding) [Finding]
+   804   C0006318:bruits (Bruit) [Finding]
+Meta Mapping (764):
+   637   C3542022:SOFT (SHORT STATURE, ONYCHODYSPLASIA, FACIAL DYSMORPHISM, AND HYPOTRICHOSIS SYNDROME) [Disease or Syndrome]
+   637   C0520960:Non-tender [Qualitative Concept]
+   637   C2825415:Negative (Negative Number) [Conceptual Entity]
+   804   C0006318:bruits (Bruit) [Finding]
+Meta Mapping (764):
+   637   C0205358:Soft [Qualitative Concept]
+   637   C0520960:Non-tender [Qualitative Concept]
+   637   C0205160:Negative [Qualitative Concept]
+   804   C0006318:bruits (Bruit) [Finding]
+Meta Mapping (764):
+   637   C0205358:Soft [Qualitative Concept]
+   637   C0520960:Non-tender [Qualitative Concept]
+   637   C2825491:Negative (Negative Charge) [Qualitative Concept]
+   804   C0006318:bruits (Bruit) [Finding]
+Meta Mapping (764):
+   637   C0205358:Soft [Qualitative Concept]
+   637   C0520960:Non-tender [Qualitative Concept]
+   637   C1513916:Negative (Negative Finding) [Finding]
+   804   C0006318:bruits (Bruit) [Finding]
+Meta Mapping (764):
+   637   C0205358:Soft [Qualitative Concept]
+   637   C0520960:Non-tender [Qualitative Concept]
+   637   C2825415:Negative (Negative Number) [Conceptual Entity]
+   804   C0006318:bruits (Bruit) [Finding]
+Processing 00000000.tx.1: No clubbing cyanosis or edema
+
+Phrase: "No clubbing cyanosis"
+Meta Mapping (888):
+   694   C0009080:Clubbing (Clubbed Fingers) [Acquired Abnormality]
+   861   C0010520:Cyanosis [Sign or Symptom]
+Meta Mapping (888):
+   694   C0149651:Clubbing [Sign or Symptom]
+   861   C0010520:Cyanosis [Sign or Symptom]
+
+Phrase: "or"
+
+Phrase: "edema"
+Meta Mapping (1000):
+  1000   C0013604:Edema [Pathologic Function]
+Meta Mapping (1000):
+  1000   C1717255:Edema (Edema:Finding:Point in time:^Patient:Ordinal) [Clinical Attribute]
+Processing 00000000.tx.1: Palpable pulses
+
+Phrase: "Palpable pulses"
+Meta Mapping (888):
+   694   C0522499:Palpable [Qualitative Concept]
+   861   C0034107:Pulses (Pulse taking) [Health Care Activity]
+Processing 00000000.tx.1: Gait was steady
+
+Phrase: "Gait"
+Meta Mapping (1000):
+  1000   C0016928:Gait [Finding]
+
+Phrase: "was"
+
+Phrase: "steady"
+Meta Mapping (1000):
+  1000   C0205361:Steady [Qualitative Concept]
+Processing 00000000.tx.1: The patient is being admitted status post cerebral aneurysm with clipping
+
+Phrase: "The patient"
+Meta Mapping (1000):
+  1000   C0030705:*^patient (Patients) [Patient or Disabled Group]
+
+Phrase: "is"
+
+Phrase: "being"
+
+Phrase: "admitted status post cerebral aneurysm"
+Meta Mapping (857):
+   760   C0184666:admitted (Hospital admission) [Health Care Activity]
+   640   C0687676:Status Post (Post) [Temporal Concept]
+   640   C0917996:Cerebral Aneurysm [Disease or Syndrome]
+Meta Mapping (857):
+   760   C0184666:admitted (Hospital admission) [Health Care Activity]
+   640   C0231290:Status post [Temporal Concept]
+   640   C0917996:Cerebral Aneurysm [Disease or Syndrome]
+
+Phrase: "with clipping"
+Meta Mapping (1000):
+  1000   C1283066:Clipping [Therapeutic or Preventive Procedure]
+Meta Mapping (1000):
+  1000   C0185010:Clipping (Closure by clip procedure) [Therapeutic or Preventive Procedure]
+Processing 00000000.tx.1: A-comm aneurysm clipping via a right pterional craniotomy without intraoperative complication
+
+Phrase: "A-comm aneurysm clipping via a right pterional craniotomy"
+Meta Mapping (716):
+   366   C0672488:A 90931 a [Organic Chemical,Pharmacologic Substance]
+   575   C3639709:COMM (Current Opioid Misuse Measure Questionnaire) [Intellectual Product]
+   764   C0189711:Aneurysm clipping [Therapeutic or Preventive Procedure]
+   562   C2362599:Right pterion [Body Space or Junction]
+   575   C0010280:Craniotomy [Therapeutic or Preventive Procedure]
+Meta Mapping (716):
+   366   C0672488:A 90931 a [Organic Chemical,Pharmacologic Substance]
+   575   C3639709:COMM (Current Opioid Misuse Measure Questionnaire) [Intellectual Product]
+   764   C0189711:Aneurysm clipping [Therapeutic or Preventive Procedure]
+   562   C0926704:Right pterion (Right pterion junction) [Body Space or Junction]
+   575   C0010280:Craniotomy [Therapeutic or Preventive Procedure]
+
+Phrase: "without intraoperative complication"
+Meta Mapping (1000):
+  1000   C0021890:Complication, Intraoperative (Intraoperative Complications) [Pathologic Function]
+Processing 00000000.tx.1: Postoperative vital signs are stable
+
+Phrase: "Postoperative vital signs"
+Meta Mapping (901):
+   660   C0032790:Postoperative (Postoperative Period) [Temporal Concept]
+   901   C0518766:Vital signs [Clinical Attribute]
+
+Phrase: "are"
+
+Phrase: "stable"
+Meta Mapping (1000):
+  1000   C1547311:Stable (Patient Condition Code - Stable) [Intellectual Product]
+Meta Mapping (1000):
+  1000   C0205360:Stable (Stable status) [Qualitative Concept]
+Processing 00000000.tx.1: Patient was afebrile
+
+Phrase: "Patient"
+Meta Mapping (1000):
+  1000   C0030705:*^patient (Patients) [Patient or Disabled Group]
+
+Phrase: "was"
+
+Phrase: "afebrile"
+Meta Mapping (1000):
+  1000   C0277797:Afebrile (Apyrexial) [Finding]
+Processing 00000000.tx.1: She was awake alert
+
+Phrase: "She"
+
+Phrase: "was"
+
+Phrase: "awake alert"
+Meta Mapping (888):
+   694   C0234422:Awake [Finding]
+   861   C0239110:alert (Consciousness clear) [Finding]
+Processing 00000000.tx.1: Pupils are equal round and reactive to light
+
+Phrase: "Pupils"
+Meta Mapping (1000):
+  1000   C0034121:Pupils (Pupil) [Body Part, Organ, or Organ Component]
+
+Phrase: "are"
+
+Phrase: "equal round"
+Meta Mapping (888):
+   694   C0205163:Equal [Qualitative Concept]
+   861   C0332490:Round (Round shape) [Spatial Concept]
+Meta Mapping (888):
+   694   C1549782:Equal (Relational Operator - Equal) [Idea or Concept]
+   861   C0332490:Round (Round shape) [Spatial Concept]
+
+Phrase: "and"
+
+Phrase: "reactive to light"
+Meta Mapping (746):
+   790   C0205332:Reactive [Qualitative Concept]
+   623   C0023693:Light [Natural Phenomenon or Process]
+Meta Mapping (746):
+   790   C0205332:Reactive [Qualitative Concept]
+   623   C1881376:Light (Light (qualifier)) [Qualitative Concept]
+Meta Mapping (746):
+   790   C0205332:Reactive [Qualitative Concept]
+   623   C2718082:LIGHT (Light Cycle) [Temporal Concept]
+Meta Mapping (746):
+   790   C0205332:Reactive [Qualitative Concept]
+   623   C1306462:Light (Light color) [Functional Concept]
+Processing 00000000.tx.1: EOMs are full
+
+Phrase: "EOMs"
+Meta Mapping (1000):
+  1000   C0241886:eoms (Extraocular) [Functional Concept]
+
+Phrase: "are"
+
+Phrase: "full"
+Meta Mapping (1000):
+  1000   C0443225:Full [Qualitative Concept]
+Processing 00000000.tx.1: No facial droop no drift
+
+Phrase: "No facial"
+Meta Mapping (1000):
+  1000   C0015450:Facial (Face) [Body Location or Region]
+Meta Mapping (1000):
+  1000   C0524465:Facial [Spatial Concept]
+
+Phrase: "droop"
+
+Phrase: "no drift"
+Processing 00000000.tx.1: Strength down the legs was
+
+Phrase: "Strength down the legs"
+Meta Mapping (819):
+   819   C3166378:Strength - legs [Clinical Attribute]
+
+Phrase: "was"
+Processing 00000000.tx.1: On postoperative day the patient was taken to arteriogram where she underwent a cerebral angiogram to evaluate clipping of the aneurysm
+
+Phrase: "On postoperative day"
+Meta Mapping (888):
+   861   C0032790:Postoperative (Postoperative Period) [Temporal Concept]
+   861   C0332173:/day (Daily) [Temporal Concept]
+Meta Mapping (888):
+   861   C0032790:Postoperative (Postoperative Period) [Temporal Concept]
+   861   C0439228:day [Temporal Concept]
+Meta Mapping (888):
+   861   C0032790:Postoperative (Postoperative Period) [Temporal Concept]
+   861   C0439505:/day (per day) [Temporal Concept]
+
+Phrase: "the patient"
+Meta Mapping (1000):
+  1000   C0030705:*^patient (Patients) [Patient or Disabled Group]
+
+Phrase: "was"
+
+Phrase: "taken"
+Meta Mapping (1000):
+  1000   C1883727:Taken [Conceptual Entity]
+
+Phrase: "to arteriogram where"
+Meta Mapping (790):
+   660   C1883351:To [Qualitative Concept]
+   827   C0918037:Arteriogram [Diagnostic Procedure]
+
+Phrase: "she"
+
+Phrase: "underwent"
+
+Phrase: "a cerebral angiogram to"
+Meta Mapping (901):
+   901   C0948923:Cerebral angiogram (Fluoroscopic angiography of cerebral artery) [Diagnostic Procedure]
+
+Phrase: "evaluate"
+Meta Mapping (1000):
+  1000   C0220825:Evaluate (Evaluation) [Functional Concept]
+
+Phrase: "clipping of the aneurysm"
+Meta Mapping (881):
+   881   C0189711:Clipping of aneurysm (Aneurysm clipping) [Therapeutic or Preventive Procedure]
+Processing 00000000.tx.1: It was found at that time that the patient had a third aneurysm and that the MCA aneurysm which was clipped was at the origin of the anterior temporal artery and not the one at the MCA bifurcation
+
+Phrase: "It"
+
+Phrase: "was"
+
+Phrase: "found at"
+Meta Mapping (833):
+   833   C0150312:Found (Present) [Quantitative Concept]
+
+Phrase: "that time"
+Meta Mapping (1000):
+  1000   C0040223:Time [Temporal Concept]
+Meta Mapping (1000):
+  1000   C3541383:Time (Time (foundation metadata concept)) [Temporal Concept]
+
+Phrase: "that"
+
+Phrase: "the patient"
+Meta Mapping (1000):
+  1000   C0030705:*^patient (Patients) [Patient or Disabled Group]
+
+Phrase: "had"
+
+Phrase: "a third aneurysm"
+Meta Mapping (888):
+   694   C0205437:Third [Quantitative Concept]
+   861   C0002940:Aneurysm [Disease or Syndrome]
+
+Phrase: "and"
+
+Phrase: "that"
+
+Phrase: "the MCA aneurysm"
+Meta Mapping (888):
+   694   C0149566:MCA (Structure of middle cerebral artery) [Body Part, Organ, or Organ Component]
+   861   C0002940:Aneurysm [Disease or Syndrome]
+
+Phrase: "which"
+
+Phrase: "was"
+
+Phrase: "clipped"
+Meta Mapping (966):
+   966   C0175722:Clip [Medical Device]
+Meta Mapping (966):
+   966   C1705205:Clip (Clip Device Component) [Medical Device]
+
+Phrase: "was at the origin of the anterior temporal artery"
+Meta Mapping (744):
+   742   C1421478:WAS (WAS gene) [Gene or Genome]
+   742   C0439659:Origin (Beginning) [Temporal Concept]
+   544   C1181047:Anterior ramus of trunk of anterior segmental artery [Body Part, Organ, or Organ Component]
+   742   C0442043:Temporal (Temporal - Regional site descriptor) [Spatial Concept]
+Meta Mapping (744):
+   742   C1421478:WAS (WAS gene) [Gene or Genome]
+   742   C0439659:Origin (Beginning) [Temporal Concept]
+   544   C1181047:Anterior ramus of trunk of anterior segmental artery [Body Part, Organ, or Organ Component]
+   742   C2362314:Temporal (Temporal -Temporal Qualifier) [Temporal Concept]
+Meta Mapping (744):
+   742   C1421478:WAS (WAS gene) [Gene or Genome]
+   742   C0079946:origin (National origin) [Classification]
+   544   C1181047:Anterior ramus of trunk of anterior segmental artery [Body Part, Organ, or Organ Component]
+   742   C0442043:Temporal (Temporal - Regional site descriptor) [Spatial Concept]
+Meta Mapping (744):
+   742   C1421478:WAS (WAS gene) [Gene or Genome]
+   742   C0079946:origin (National origin) [Classification]
+   544   C1181047:Anterior ramus of trunk of anterior segmental artery [Body Part, Organ, or Organ Component]
+   742   C2362314:Temporal (Temporal -Temporal Qualifier) [Temporal Concept]
+Meta Mapping (744):
+   742   C1421478:WAS (WAS gene) [Gene or Genome]
+   742   C1550512:origin (Participation Type - origin) [Intellectual Product]
+   544   C1181047:Anterior ramus of trunk of anterior segmental artery [Body Part, Organ, or Organ Component]
+   742   C0442043:Temporal (Temporal - Regional site descriptor) [Spatial Concept]
+Meta Mapping (744):
+   742   C1421478:WAS (WAS gene) [Gene or Genome]
+   742   C1550512:origin (Participation Type - origin) [Intellectual Product]
+   544   C1181047:Anterior ramus of trunk of anterior segmental artery [Body Part, Organ, or Organ Component]
+   742   C2362314:Temporal (Temporal -Temporal Qualifier) [Temporal Concept]
+Meta Mapping (744):
+   742   C0043194:WAS (Wiskott-Aldrich Syndrome) [Disease or Syndrome]
+   742   C0439659:Origin (Beginning) [Temporal Concept]
+   544   C1181047:Anterior ramus of trunk of anterior segmental artery [Body Part, Organ, or Organ Component]
+   742   C0442043:Temporal (Temporal - Regional site descriptor) [Spatial Concept]
+Meta Mapping (744):
+   742   C0043194:WAS (Wiskott-Aldrich Syndrome) [Disease or Syndrome]
+   742   C0439659:Origin (Beginning) [Temporal Concept]
+   544   C1181047:Anterior ramus of trunk of anterior segmental artery [Body Part, Organ, or Organ Component]
+   742   C2362314:Temporal (Temporal -Temporal Qualifier) [Temporal Concept]
+Meta Mapping (744):
+   742   C0043194:WAS (Wiskott-Aldrich Syndrome) [Disease or Syndrome]
+   742   C0079946:origin (National origin) [Classification]
+   544   C1181047:Anterior ramus of trunk of anterior segmental artery [Body Part, Organ, or Organ Component]
+   742   C0442043:Temporal (Temporal - Regional site descriptor) [Spatial Concept]
+Meta Mapping (744):
+   742   C0043194:WAS (Wiskott-Aldrich Syndrome) [Disease or Syndrome]
+   742   C0079946:origin (National origin) [Classification]
+   544   C1181047:Anterior ramus of trunk of anterior segmental artery [Body Part, Organ, or Organ Component]
+   742   C2362314:Temporal (Temporal -Temporal Qualifier) [Temporal Concept]
+Meta Mapping (744):
+   742   C0043194:WAS (Wiskott-Aldrich Syndrome) [Disease or Syndrome]
+   742   C1550512:origin (Participation Type - origin) [Intellectual Product]
+   544   C1181047:Anterior ramus of trunk of anterior segmental artery [Body Part, Organ, or Organ Component]
+   742   C0442043:Temporal (Temporal - Regional site descriptor) [Spatial Concept]
+Meta Mapping (744):
+   742   C0043194:WAS (Wiskott-Aldrich Syndrome) [Disease or Syndrome]
+   742   C1550512:origin (Participation Type - origin) [Intellectual Product]
+   544   C1181047:Anterior ramus of trunk of anterior segmental artery [Body Part, Organ, or Organ Component]
+   742   C2362314:Temporal (Temporal -Temporal Qualifier) [Temporal Concept]
+Meta Mapping (744):
+   742   C0258432:WAS (Wiskott-Aldrich Syndrome Protein) [Amino Acid, Peptide, or Protein,Biologically Active Substance]
+   742   C0439659:Origin (Beginning) [Temporal Concept]
+   544   C1181047:Anterior ramus of trunk of anterior segmental artery [Body Part, Organ, or Organ Component]
+   742   C0442043:Temporal (Temporal - Regional site descriptor) [Spatial Concept]
+Meta Mapping (744):
+   742   C0258432:WAS (Wiskott-Aldrich Syndrome Protein) [Amino Acid, Peptide, or Protein,Biologically Active Substance]
+   742   C0439659:Origin (Beginning) [Temporal Concept]
+   544   C1181047:Anterior ramus of trunk of anterior segmental artery [Body Part, Organ, or Organ Component]
+   742   C2362314:Temporal (Temporal -Temporal Qualifier) [Temporal Concept]
+Meta Mapping (744):
+   742   C0258432:WAS (Wiskott-Aldrich Syndrome Protein) [Amino Acid, Peptide, or Protein,Biologically Active Substance]
+   742   C0079946:origin (National origin) [Classification]
+   544   C1181047:Anterior ramus of trunk of anterior segmental artery [Body Part, Organ, or Organ Component]
+   742   C0442043:Temporal (Temporal - Regional site descriptor) [Spatial Concept]
+Meta Mapping (744):
+   742   C0258432:WAS (Wiskott-Aldrich Syndrome Protein) [Amino Acid, Peptide, or Protein,Biologically Active Substance]
+   742   C0079946:origin (National origin) [Classification]
+   544   C1181047:Anterior ramus of trunk of anterior segmental artery [Body Part, Organ, or Organ Component]
+   742   C2362314:Temporal (Temporal -Temporal Qualifier) [Temporal Concept]
+Meta Mapping (744):
+   742   C0258432:WAS (Wiskott-Aldrich Syndrome Protein) [Amino Acid, Peptide, or Protein,Biologically Active Substance]
+   742   C1550512:origin (Participation Type - origin) [Intellectual Product]
+   544   C1181047:Anterior ramus of trunk of anterior segmental artery [Body Part, Organ, or Organ Component]
+   742   C0442043:Temporal (Temporal - Regional site descriptor) [Spatial Concept]
+Meta Mapping (744):
+   742   C0258432:WAS (Wiskott-Aldrich Syndrome Protein) [Amino Acid, Peptide, or Protein,Biologically Active Substance]
+   742   C1550512:origin (Participation Type - origin) [Intellectual Product]
+   544   C1181047:Anterior ramus of trunk of anterior segmental artery [Body Part, Organ, or Organ Component]
+   742   C2362314:Temporal (Temporal -Temporal Qualifier) [Temporal Concept]
+
+Phrase: "and"
+
+Phrase: "not"
+Meta Mapping (1000):
+  1000   C1518422:Not (Negation) [Functional Concept]
+
+Phrase: "the one at the MCA bifurcation"
+Meta Mapping (672):
+   753   C0205447:One [Quantitative Concept]
+   586   C0149566:MCA (Structure of middle cerebral artery) [Body Part, Organ, or Organ Component]
+   586   C3146289:Bifurcation (Anatomic bifurcation) [Body Space or Junction]
+Meta Mapping (672):
+   753   C0205447:One [Quantitative Concept]
+   586   C0149566:MCA (Structure of middle cerebral artery) [Body Part, Organ, or Organ Component]
+   586   C0184906:Bifurcation (Bifurcation (procedure)) [Therapeutic or Preventive Procedure]
+Processing 00000000.tx.1: The patient was therefore taken back to the operating room for a clipping of the second MCA aneurysm without intraoperative complication
+
+Phrase: "The patient"
+Meta Mapping (1000):
+  1000   C0030705:*^patient (Patients) [Patient or Disabled Group]
+
+Phrase: "was"
+
+Phrase: "therefore"
+
+Phrase: "taken"
+Meta Mapping (1000):
+  1000   C1883727:Taken [Conceptual Entity]
+
+Phrase: "back to the operating room"
+Meta Mapping (745):
+   760   C0004600:Back [Body Location or Region]
+   640   C0029064:Operating Room [Health Care Related Organization,Manufactured Object]
+Meta Mapping (745):
+   760   C0004600:Back [Body Location or Region]
+   640   C1578465:Operating Room (Patient location type - Operating Room) [Spatial Concept]
+Meta Mapping (745):
+   760   C1995000:Back (Back structure, excluding neck) [Body Location or Region]
+   640   C0029064:Operating Room [Health Care Related Organization,Manufactured Object]
+Meta Mapping (745):
+   760   C1995000:Back (Back structure, excluding neck) [Body Location or Region]
+   640   C1578465:Operating Room (Patient location type - Operating Room) [Spatial Concept]
+Meta Mapping (745):
+   760   C0460009:Back (Back structure, including back of neck) [Body Location or Region]
+   640   C0029064:Operating Room [Health Care Related Organization,Manufactured Object]
+Meta Mapping (745):
+   760   C0460009:Back (Back structure, including back of neck) [Body Location or Region]
+   640   C1578465:Operating Room (Patient location type - Operating Room) [Spatial Concept]
+Meta Mapping (745):
+   760   C0205095:Back (Dorsal) [Spatial Concept]
+   640   C0029064:Operating Room [Health Care Related Organization,Manufactured Object]
+Meta Mapping (745):
+   760   C0205095:Back (Dorsal) [Spatial Concept]
+   640   C1578465:Operating Room (Patient location type - Operating Room) [Spatial Concept]
+
+Phrase: "for a clipping"
+Meta Mapping (1000):
+  1000   C1283066:Clipping [Therapeutic or Preventive Procedure]
+Meta Mapping (1000):
+  1000   C0185010:Clipping (Closure by clip procedure) [Therapeutic or Preventive Procedure]
+
+Phrase: "of the second MCA aneurysm"
+Meta Mapping (851):
+   660   C1561503:second (Precision - second) [Idea or Concept]
+   660   C0149566:MCA (Structure of middle cerebral artery) [Body Part, Organ, or Organ Component]
+   827   C0002940:Aneurysm [Disease or Syndrome]
+Meta Mapping (851):
+   660   C1705190:Second (Second Suffix) [Qualitative Concept]
+   660   C0149566:MCA (Structure of middle cerebral artery) [Body Part, Organ, or Organ Component]
+   827   C0002940:Aneurysm [Disease or Syndrome]
+Meta Mapping (851):
+   660   C2348168:Second (Second Unit of Plane Angle) [Quantitative Concept]
+   660   C0149566:MCA (Structure of middle cerebral artery) [Body Part, Organ, or Organ Component]
+   827   C0002940:Aneurysm [Disease or Syndrome]
+Meta Mapping (851):
+   660   C0565930:/second (per second) [Quantitative Concept]
+   660   C0149566:MCA (Structure of middle cerebral artery) [Body Part, Organ, or Organ Component]
+   827   C0002940:Aneurysm [Disease or Syndrome]
+Meta Mapping (851):
+   660   C0205436:Second (second (number)) [Quantitative Concept]
+   660   C0149566:MCA (Structure of middle cerebral artery) [Body Part, Organ, or Organ Component]
+   827   C0002940:Aneurysm [Disease or Syndrome]
+Meta Mapping (851):
+   660   C0457385:Second (seconds) [Temporal Concept]
+   660   C0149566:MCA (Structure of middle cerebral artery) [Body Part, Organ, or Organ Component]
+   827   C0002940:Aneurysm [Disease or Syndrome]
+
+Phrase: "without intraoperative complication"
+Meta Mapping (1000):
+  1000   C0021890:Complication, Intraoperative (Intraoperative Complications) [Pathologic Function]
+Processing 00000000.tx.1: Unit
+
+Phrase: "Unit"
+Meta Mapping (1000):
+  1000   C1880519:Unit (Enzyme Unit) [Quantitative Concept]
+Meta Mapping (1000):
+  1000   C1704753:Unit (Storage Unit) [Manufactured Object]
+Meta Mapping (1000):
+  1000   C0439148:Unit [Quantitative Concept]
+Meta Mapping (1000):
+  1000   C1704434:Unit (Unit Device Component) [Manufactured Object]
+Meta Mapping (1000):
+  1000   C1519795:Unit (Unit of Measure) [Quantitative Concept]
+Processing 00000000.tx.1: She was alert awake oriented complaining of severe headache moving all extremities
+
+Phrase: "She"
+
+Phrase: "was"
+
+Phrase: "alert awake oriented complaining of severe headache"
+Meta Mapping (826):
+   581   C0239110:alert (Consciousness clear) [Finding]
+   581   C0234422:Awake [Finding]
+   581   C1704322:Oriented (Orientation (spatial)) [Spatial Concept]
+   610   C0439024:Complaining of a headache (C/O - a headache) [Finding]
+   581   C0205082:Severe (Severe (severity modifier)) [Qualitative Concept]
+
+Phrase: "moving"
+Meta Mapping (1000):
+  1000   C0560560:Moving [Organism Function]
+
+Phrase: "all extremities"
+Meta Mapping (1000):
+  1000   C0278454:extremities (All extremities) [Body Part, Organ, or Organ Component]
+Meta Mapping (1000):
+  1000   C0015385:Extremities (Limb structure) [Body Part, Organ, or Organ Component]
+Processing 00000000.tx.1: EOMs full negative drift a smile was symmetric IP is
+
+Phrase: "EOMs full negative"
+Meta Mapping (851):
+   660   C0241886:eoms (Extraocular) [Functional Concept]
+   660   C0443225:Full [Qualitative Concept]
+   827   C0205160:Negative [Qualitative Concept]
+Meta Mapping (851):
+   660   C0241886:eoms (Extraocular) [Functional Concept]
+   660   C0443225:Full [Qualitative Concept]
+   827   C2825491:Negative (Negative Charge) [Qualitative Concept]
+Meta Mapping (851):
+   660   C0241886:eoms (Extraocular) [Functional Concept]
+   660   C0443225:Full [Qualitative Concept]
+   827   C1513916:Negative (Negative Finding) [Finding]
+Meta Mapping (851):
+   660   C0241886:eoms (Extraocular) [Functional Concept]
+   660   C0443225:Full [Qualitative Concept]
+   827   C2825415:Negative (Negative Number) [Conceptual Entity]
+
+Phrase: "drift"
+
+Phrase: "a smile"
+Meta Mapping (1000):
+  1000   C0517048:smile (Smiles (finding)) [Finding]
+Meta Mapping (1000):
+  1000   C0037363:smile (Smiling) [Social Behavior]
+
+Phrase: "was"
+
+Phrase: "symmetric IP"
+Meta Mapping (888):
+   694   C2699744:Symmetric (Symmetric Relationship) [Conceptual Entity]
+   861   C3273618:IP (SDHB wt Allele) [Gene or Genome]
+Meta Mapping (888):
+   694   C2699744:Symmetric (Symmetric Relationship) [Conceptual Entity]
+   861   C3273619:Ip (Succinate Dehydrogenase [Ubiquinone] Iron-Sulfur Subunit, Mitochondrial) [Amino Acid, Peptide, or Protein,Enzyme]
+Meta Mapping (888):
+   694   C0332516:symmetric (Symmetrical) [Spatial Concept]
+   861   C3273618:IP (SDHB wt Allele) [Gene or Genome]
+Meta Mapping (888):
+   694   C0332516:symmetric (Symmetrical) [Spatial Concept]
+   861   C3273619:Ip (Succinate Dehydrogenase [Ubiquinone] Iron-Sulfur Subunit, Mitochondrial) [Amino Acid, Peptide, or Protein,Enzyme]
+
+Phrase: "is"
+Processing 00000000.tx.1: The patient was then discharged to the floor on
+
+Phrase: "The patient"
+Meta Mapping (1000):
+  1000   C0030705:*^patient (Patients) [Patient or Disabled Group]
+
+Phrase: "was"
+
+Phrase: "then"
+Meta Mapping (1000):
+  1000   C1883708:Then [Temporal Concept]
+
+Phrase: "discharged to the floor"
+Meta Mapping (691):
+   737   C0012621:Discharge (Body Fluid Discharge) [Body Substance]
+   770   C1547707:Floor (Floor - story of building) [Geographic Area]
+Meta Mapping (691):
+   737   C0012621:Discharge (Body Fluid Discharge) [Body Substance]
+   770   C0016249:Floor (floor (object)) [Manufactured Object]
+Meta Mapping (691):
+   737   C2926602:Discharge (Discharge, body substance) [Body Substance]
+   770   C1547707:Floor (Floor - story of building) [Geographic Area]
+Meta Mapping (691):
+   737   C2926602:Discharge (Discharge, body substance) [Body Substance]
+   770   C0016249:Floor (floor (object)) [Manufactured Object]
+Meta Mapping (691):
+   737   C0030685:Discharge (Patient Discharge) [Health Care Activity]
+   770   C1547707:Floor (Floor - story of building) [Geographic Area]
+Meta Mapping (691):
+   737   C0030685:Discharge (Patient Discharge) [Health Care Activity]
+   770   C0016249:Floor (floor (object)) [Manufactured Object]
+
+Phrase: "on"
+Processing 00000000.tx.1: She has been out of bed and ambulating with Physical Therapy tolerating a regular diet and voiding spontaneously
+
+Phrase: "She"
+
+Phrase: "has"
+
+Phrase: "been out of bed"
+Meta Mapping (708):
+   770   C0439787:Out (Out (direction)) [Spatial Concept]
+   770   C0004916:Bed (Beds) [Manufactured Object]
+Meta Mapping (708):
+   770   C0439787:Out (Out (direction)) [Spatial Concept]
+   770   C0596170:BED (Binge eating disorder) [Mental or Behavioral Dysfunction]
+Meta Mapping (708):
+   770   C0849355:Out (Removed) [Qualitative Concept]
+   770   C0004916:Bed (Beds) [Manufactured Object]
+Meta Mapping (708):
+   770   C0849355:Out (Removed) [Qualitative Concept]
+   770   C0596170:BED (Binge eating disorder) [Mental or Behavioral Dysfunction]
+
+Phrase: "and"
+
+Phrase: "ambulating with Physical Therapy"
+Meta Mapping (666):
+   666   C0949766:Physical therapy [Therapeutic or Preventive Procedure]
+Meta Mapping (666):
+   666   C0699718:physical therapy (Physical therapy (field)) [Biomedical Occupation or Discipline]
+
+Phrase: "tolerating"
+
+Phrase: "a regular diet"
+Meta Mapping (1000):
+  1000   C0012155:regular diet? (Diet) [Food]
+Meta Mapping (1000):
+  1000   C0184625:Regular diet (Normal diet) [Daily or Recreational Activity]
+
+Phrase: "and"
+
+Phrase: "voiding spontaneously"
+Meta Mapping (861):
+   861   C0042034:Voiding (Urination) [Organism Function]
+Processing 00000000.tx.1: Her incision is clean dry and intact and she is neurologically stable
+
+Phrase: "Her incision"
+Meta Mapping (1000):
+  1000   C2338258:Incision (Cranial incision point) [Body Location or Region]
+Meta Mapping (1000):
+  1000   C0184898:Incision (Surgical incisions) [Therapeutic or Preventive Procedure]
+
+Phrase: "is"
+
+Phrase: "clean dry"
+Meta Mapping (888):
+   694   C1947930:Clean (Cleaning (activity)) [Activity]
+   861   C0011682:Dry (Desiccation) [Natural Phenomenon or Process]
+Meta Mapping (888):
+   694   C1947930:Clean (Cleaning (activity)) [Activity]
+   861   C0205222:Dry [Qualitative Concept]
+Meta Mapping (888):
+   694   C1947930:Clean (Cleaning (activity)) [Activity]
+   861   C1512080:Dry (Dryness (characteristic)) [Qualitative Concept]
+
+Phrase: "and"
+
+Phrase: "intact"
+Meta Mapping (1000):
+  1000   C1554187:Intact (Gender Status - Intact) [Idea or Concept]
+Meta Mapping (1000):
+  1000   C0205266:Intact [Qualitative Concept]
+
+Phrase: "and"
+
+Phrase: "she"
+
+Phrase: "is"
+
+Phrase: "neurologically stable"
+Meta Mapping (861):
+   861   C1547311:Stable (Patient Condition Code - Stable) [Intellectual Product]
+Meta Mapping (861):
+   861   C0205360:Stable (Stable status) [Qualitative Concept]
+Processing 00000000.tx.1: Hydromorphone mg po q4h prn
+
+Phrase: "Hydromorphone mg po q4h prn"
+Meta Mapping (660):
+   478   C2740114:Hydromorphone Hydrochloride 1 MG [Clinical Drug]
+   637   C0442027:PO (Oral) [Spatial Concept]
+   637   C0585324:Q4H (Every four hours) [Temporal Concept]
+Meta Mapping (660):
+   478   C2740062:Hydromorphone Hydrochloride 12 MG [Clinical Drug]
+   637   C0442027:PO (Oral) [Spatial Concept]
+   637   C0585324:Q4H (Every four hours) [Temporal Concept]
+Meta Mapping (660):
+   478   C2740070:Hydromorphone Hydrochloride 16 MG [Clinical Drug]
+   637   C0442027:PO (Oral) [Spatial Concept]
+   637   C0585324:Q4H (Every four hours) [Temporal Concept]
+Meta Mapping (660):
+   478   C2740076:Hydromorphone Hydrochloride 2 MG [Clinical Drug]
+   637   C0442027:PO (Oral) [Spatial Concept]
+   637   C0585324:Q4H (Every four hours) [Temporal Concept]
+Meta Mapping (660):
+   478   C2740094:Hydromorphone Hydrochloride 24 MG [Clinical Drug]
+   637   C0442027:PO (Oral) [Spatial Concept]
+   637   C0585324:Q4H (Every four hours) [Temporal Concept]
+Meta Mapping (660):
+   478   C2740105:Hydromorphone Hydrochloride 3 MG [Clinical Drug]
+   637   C0442027:PO (Oral) [Spatial Concept]
+   637   C0585324:Q4H (Every four hours) [Temporal Concept]
+Meta Mapping (660):
+   478   C2740098:Hydromorphone Hydrochloride 32 MG [Clinical Drug]
+   637   C0442027:PO (Oral) [Spatial Concept]
+   637   C0585324:Q4H (Every four hours) [Temporal Concept]
+Meta Mapping (660):
+   478   C2740079:Hydromorphone Hydrochloride 4 MG [Clinical Drug]
+   637   C0442027:PO (Oral) [Spatial Concept]
+   637   C0585324:Q4H (Every four hours) [Temporal Concept]
+Meta Mapping (660):
+   478   C2740083:Hydromorphone Hydrochloride 8 MG [Clinical Drug]
+   637   C0442027:PO (Oral) [Spatial Concept]
+   637   C0585324:Q4H (Every four hours) [Temporal Concept]
+Processing 00000000.tx.1: Synthroid mcg po q day
+
+Phrase: "Synthroid mcg po q day"
+Meta Mapping (794):
+   637   C0728762:Synthroid [Amino Acid, Peptide, or Protein,Pharmacologic Substance]
+   875   C0439426:mcg/day (Microgram per Day) [Quantitative Concept]
+   637   C0442027:PO (Oral) [Spatial Concept]
+Processing 00000000.tx.1: Colace mg po bid
+
+Phrase: "Colace mg po bid"
+Meta Mapping (667):
+   513   C3153447:Docusate Sodium 100 MG [Clinical Drug]
+   645   C0442027:PO (Oral) [Spatial Concept]
+Meta Mapping (667):
+   513   C1577583:Docusate Sodium 120 MG [Clinical Drug]
+   645   C0442027:PO (Oral) [Spatial Concept]
+Meta Mapping (667):
+   513   C1577551:Docusate Sodium 230 MG [Clinical Drug]
+   645   C0442027:PO (Oral) [Spatial Concept]
+Meta Mapping (667):
+   513   C3500166:Docusate Sodium 25 MG [Clinical Drug]
+   645   C0442027:PO (Oral) [Spatial Concept]
+Meta Mapping (667):
+   513   C3265784:Docusate Sodium 250 MG [Clinical Drug]
+   645   C0442027:PO (Oral) [Spatial Concept]
+Meta Mapping (667):
+   513   C1577563:Docusate Sodium 300 MG [Clinical Drug]
+   645   C0442027:PO (Oral) [Spatial Concept]
+Meta Mapping (667):
+   513   C2726279:Docusate Sodium 40 MG [Clinical Drug]
+   645   C0442027:PO (Oral) [Spatial Concept]
+Meta Mapping (667):
+   513   C2609988:Docusate Sodium 50 MG [Clinical Drug]
+   645   C0442027:PO (Oral) [Spatial Concept]
+Meta Mapping (667):
+   513   C2948047:Docusate Sodium 55 MG [Clinical Drug]
+   645   C0442027:PO (Oral) [Spatial Concept]
+Meta Mapping (667):
+   513   C1577549:Docusate Sodium 60 MG [Clinical Drug]
+   645   C0442027:PO (Oral) [Spatial Concept]
+Meta Mapping (667):
+   513   C1577575:Docusate Sodium 65 MG [Clinical Drug]
+   645   C0442027:PO (Oral) [Spatial Concept]
+Meta Mapping (667):
+   513   C1577550:Docusate Sodium 75 MG [Clinical Drug]
+   645   C0442027:PO (Oral) [Spatial Concept]
+Processing 00000000.tx.1: Stable
+
+Phrase: "Stable"
+Meta Mapping (1000):
+  1000   C1547311:Stable (Patient Condition Code - Stable) [Intellectual Product]
+Meta Mapping (1000):
+  1000   C0205360:Stable (Stable status) [Qualitative Concept]
+Processing 00000000.tx.1: FOLLOW-UP She will follow up in days for staple removal with Name
+
+Phrase: "FOLLOW-UP"
+Meta Mapping (1000):
+  1000   C3274571:FOLLOW-UP (Clinical Study Follow-up) [Health Care Activity]
+Meta Mapping (1000):
+  1000   C1704685:FOLLOW-UP (Follow-Up Report) [Intellectual Product]
+Meta Mapping (1000):
+  1000   C0589120:Follow-up (Follow-up status) [Finding]
+Meta Mapping (1000):
+  1000   C1522577:follow-up [Health Care Activity]
+
+Phrase: "She"
+
+Phrase: "will"
+
+Phrase: "follow up in days"
+Meta Mapping (829):
+   676   C0420328:Follow-up 1 day [Finding]
+
+Phrase: "for staple removal"
+Meta Mapping (1000):
+  1000   C0204864:staple removal (Removal of staples) [Therapeutic or Preventive Procedure]
+
+Phrase: "with Name"
+Meta Mapping (1000):
+  1000   C0027365:Name [Intellectual Product]
+Meta Mapping (1000):
+  1000   C1547383:Name (Person Name) [Intellectual Product]
+Processing 00000000.tx.1: Name M.D
+
+Phrase: "Name M.D"
+Meta Mapping (901):
+   660   C0027365:Name [Intellectual Product]
+   901   C1512018:M.D. (Doctor of Medicine) [Intellectual Product]
+Meta Mapping (901):
+   660   C1547383:Name (Person Name) [Intellectual Product]
+   901   C1512018:M.D. (Doctor of Medicine) [Intellectual Product]

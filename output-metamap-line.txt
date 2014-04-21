@@ -1,0 +1,39 @@
+Processing 00000000.tx.1: The patient is a female with complaints of headache and dizziness
+
+Phrase: "The patient"
+Meta Mapping (1000):
+  1000   C0030705:*^patient (Patients) [Patient or Disabled Group]
+
+Phrase: "is"
+
+Phrase: "a female with complaints of headache"
+Meta Mapping (666):
+   753   C0015780:Female [Finding]
+   586   C0277786:complaints (Chief complaint (finding)) [Finding]
+   586   C0018681:Headache [Sign or Symptom]
+Meta Mapping (666):
+   753   C1705498:Female (Female Phenotype) [Qualitative Concept]
+   586   C0277786:complaints (Chief complaint (finding)) [Finding]
+   586   C0018681:Headache [Sign or Symptom]
+Meta Mapping (666):
+   753   C1705497:Female (Female, Self-Report) [Qualitative Concept]
+   586   C0277786:complaints (Chief complaint (finding)) [Finding]
+   586   C0018681:Headache [Sign or Symptom]
+Meta Mapping (666):
+   753   C0086287:female (Females) [Population Group]
+   586   C0277786:complaints (Chief complaint (finding)) [Finding]
+   586   C0018681:Headache [Sign or Symptom]
+Meta Mapping (666):
+   753   C0043210:female (Woman) [Population Group]
+   586   C0277786:complaints (Chief complaint (finding)) [Finding]
+   586   C0018681:Headache [Sign or Symptom]
+
+Phrase: "and"
+
+Phrase: "dizziness"
+Meta Mapping (1000):
+  1000   C0012833:Dizziness [Sign or Symptom]
+Meta Mapping (1000):
+  1000   C1963093:Dizziness (Dizziness Adverse Event) [Finding]
+Meta Mapping (1000):
+  1000   C0042571:dizziness (Vertigo) [Sign or Symptom]
